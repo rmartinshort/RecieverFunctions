@@ -1,0 +1,100 @@
+
+
+ **********************************************************
+ snglinv - Receiver function inversion program.
+           VERSION 2.0 June 1997
+     Charles J. Ammon and George Randall.
+ Additional routines by George Zandt and Tom Owens.
+ **********************************************************
+ Inversion run on: Thu Jun 19 13:23:40 1997
+ **********************************************************
+ input velocity model:
+ Enter the max number of iterations per inversion
+ Enter the smoothing trade-off parameter
+ Enter inversion ID number (for output naming)
+ Enter Singular Value truncation fraction
+Apply a high-pass filter to waveforms?  Enter the corner frequency.
+ Enter the number of filter passes (1 or 2).
+ Enter number of seismograms: 
+ Enter sac file name: 
+ Enter the horizontal slowness: 
+ Enter the delay: 
+ Enter the gaussian width factor:
+ **********************************************************
+ Read in:
+  i  name               p     tdelay    gauss
+ 01  target.eqr         0.060    5.000  2.50
+ **********************************************************
+  
+ **********************************************************
+ Inversion Input Parameters:
+ **********************************************************
+  
+ Initial Velocity Model: initial_model                   
+ Max Number of Iterations:   3
+ Smoothing trade-off parameter:     1.00000E-01
+ Singular-Value Truncation Fraction:     1.00000E-02
+ Inversion ID Number:  01
+  
+ **********************************************************
+ Inversion Diagnostics:
+ **********************************************************
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.180192
+ initial rms errors:     2.37849E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.22017
+ Min Singular Value:    0.142710
+ Min Singular Value used    0.142710
+ Condition Number (smax / smin):     8.55000
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     7.36362E-02
+ rms errors:     1.52047E-02
+ roughness alpha, beta:   0.380136   0.219472
+ Percent Roughness Change (alpha,beta):   158.71    63.46
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.19171
+ Min Singular Value:    0.161130
+ Min Singular Value used    0.161130
+ Condition Number (smax / smin):     7.39592
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     4.33802E-02
+ rms errors:     1.16702E-02
+ roughness alpha, beta:   0.345965   0.199743
+ Percent Roughness Change (alpha,beta):   144.45    69.73
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.18768
+ Min Singular Value:    0.157677
+ Min Singular Value used    0.157677
+ Condition Number (smax / smin):     7.53235
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     1.83631E-02
+ rms errors:     7.59287E-03
+ roughness alpha, beta:   0.373439   0.215605
+ Percent Roughness Change (alpha,beta):   155.92    64.60
+ **********************************************************            

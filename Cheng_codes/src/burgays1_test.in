@@ -1,0 +1,20 @@
+* bptime, eptime
+20.0     150.0
+* agauss, c
+5.0     0.01                            data_a2my
+
+
+-------------------------------------------------------------------------------------
+* bptime, eptime
+20.0     100.0
+* agauss, c
+5.0     0.0001                         Japan_HFresp4
+
+
+1.0     0.01                           Japan_HFresp1
+0.6     0.01                           Japan_HFresp2
+2.0     0.01                           Japan_HFresp3
+
+
+1.0     0.01                           Japan1
+2.0     0.01                           Japan2

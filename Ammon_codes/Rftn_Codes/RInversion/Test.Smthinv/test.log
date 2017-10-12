@@ -1,0 +1,793 @@
+
+
+ **********************************************************
+ smthinv - Receiver function inversion program.
+           VERSION 2.0 June 1997
+     Charles J. Ammon and George Randall.
+ Additional routines by George Zandt and Tom Owens.
+ **********************************************************
+ Inversion run on: Thu Jun 19 13:46:02 1997
+ **********************************************************
+ input velocity model:
+ Enter the max number of iterations per inversion
+ Enter the minimum smoothing trade-off parameter
+ Enter the maximum smoothing trade-off parameter
+ Enter Singular Value truncation fraction
+Apply a high-pass filter to waveforms?  Enter number of seismograms: 
+ Enter sac file name: 
+ Enter the horizontal slowness: 
+ Enter the delay: 
+ Enter the gaussian width factor:
+ **********************************************************
+ Read in:
+  i  name               p     tdelay    gauss
+ 01  target.eqr         0.060    5.000  2.50
+ **********************************************************
+  
+ **********************************************************
+ Smoothness trade-off parameter =   0.
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.16803
+ Min Singular Value:    0.112784
+ Min Singular Value used    0.112784
+ Condition Number (smax / smin):    10.35629
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     6.89031E-02
+ rms errors:     1.58172E-02
+ roughness alpha, beta:   0.477264   0.275549
+ Percent Roughness Change (alpha,beta):   199.26    50.55
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.18140
+ Min Singular Value:    0.144900
+ Min Singular Value used    0.144900
+ Condition Number (smax / smin):     8.15324
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     4.12908E-02
+ rms errors:     1.22443E-02
+ roughness alpha, beta:   0.415559   0.239923
+ Percent Roughness Change (alpha,beta):   173.50    58.05
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.17585
+ Min Singular Value:    0.144278
+ Min Singular Value used    0.144278
+ Condition Number (smax / smin):     8.14990
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     2.08192E-02
+ rms errors:     8.69442E-03
+ roughness alpha, beta:   0.467617   0.269979
+ Percent Roughness Change (alpha,beta):   195.24    51.59
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =     1.00000E-01
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.22028
+ Min Singular Value:    0.144256
+ Min Singular Value used    0.144256
+ Condition Number (smax / smin):     8.45917
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     6.59330E-02
+ rms errors:     1.54725E-02
+ roughness alpha, beta:   0.379032   0.218834
+ Percent Roughness Change (alpha,beta):   158.25    63.65
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.19533
+ Min Singular Value:    0.162300
+ Min Singular Value used    0.162300
+ Condition Number (smax / smin):     7.36492
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     3.99262E-02
+ rms errors:     1.20403E-02
+ roughness alpha, beta:   0.343538   0.198342
+ Percent Roughness Change (alpha,beta):   143.43    70.22
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.18686
+ Min Singular Value:    0.159193
+ Min Singular Value used    0.159193
+ Condition Number (smax / smin):     7.45547
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     1.60574E-02
+ rms errors:     7.63565E-03
+ roughness alpha, beta:   0.372239   0.214912
+ Percent Roughness Change (alpha,beta):   155.41    64.81
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.200000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.37273
+ Min Singular Value:    0.162649
+ Min Singular Value used    0.162649
+ Condition Number (smax / smin):     8.43985
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     7.03279E-02
+ rms errors:     1.59798E-02
+ roughness alpha, beta:   0.265004   0.153000
+ Percent Roughness Change (alpha,beta):   110.64    91.04
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.32704
+ Min Singular Value:    0.177260
+ Min Singular Value used    0.177260
+ Condition Number (smax / smin):     7.48643
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     4.20114E-02
+ rms errors:     1.23507E-02
+ roughness alpha, beta:   0.253042   0.146094
+ Percent Roughness Change (alpha,beta):   105.65    95.34
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.31552
+ Min Singular Value:    0.168752
+ Min Singular Value used    0.168752
+ Condition Number (smax / smin):     7.79557
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     1.76752E-02
+ rms errors:     8.01108E-03
+ roughness alpha, beta:   0.285029   0.164562
+ Percent Roughness Change (alpha,beta):   119.00    84.64
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.300000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.60782
+ Min Singular Value:    0.170746
+ Min Singular Value used    0.170746
+ Condition Number (smax / smin):     9.41648
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     7.97328E-02
+ rms errors:     1.70148E-02
+ roughness alpha, beta:   0.192698   0.111254
+ Percent Roughness Change (alpha,beta):    80.45   125.19
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.55694
+ Min Singular Value:    0.168025
+ Min Singular Value used    0.168025
+ Condition Number (smax / smin):     9.26613
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     5.09038E-02
+ rms errors:     1.35952E-02
+ roughness alpha, beta:   0.190613   0.110050
+ Percent Roughness Change (alpha,beta):    79.58   126.56
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.54784
+ Min Singular Value:    0.162022
+ Min Singular Value used    0.162022
+ Condition Number (smax / smin):     9.55328
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     2.81759E-02
+ rms errors:     1.01146E-02
+ roughness alpha, beta:   0.225397   0.130133
+ Percent Roughness Change (alpha,beta):    94.11   107.03
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.400000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.90009
+ Min Singular Value:    0.175941
+ Min Singular Value used    0.175941
+ Condition Number (smax / smin):     10.7996
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     8.98525E-02
+ rms errors:     1.80623E-02
+ roughness alpha, beta:   0.147176    8.49721E-02
+ Percent Roughness Change (alpha,beta):    61.45   163.92
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.85364
+ Min Singular Value:    0.165257
+ Min Singular Value used    0.165257
+ Condition Number (smax / smin):     11.2167
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     6.34143E-02
+ rms errors:     1.51741E-02
+ roughness alpha, beta:   0.147959    8.54241E-02
+ Percent Roughness Change (alpha,beta):    61.77   163.05
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.84406
+ Min Singular Value:    0.160659
+ Min Singular Value used    0.160659
+ Condition Number (smax / smin):     11.4781
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     4.21082E-02
+ rms errors:     1.23649E-02
+ roughness alpha, beta:   0.179447    1.03604E-01
+ Percent Roughness Change (alpha,beta):    74.92   134.44
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.500000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.22836
+ Min Singular Value:    0.179741
+ Min Singular Value used    0.179741
+ Condition Number (smax / smin):     12.3976
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     9.89331E-02
+ rms errors:     1.89531E-02
+ roughness alpha, beta:   0.117278    6.77103E-02
+ Percent Roughness Change (alpha,beta):    48.97   205.71
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.18882
+ Min Singular Value:    0.164713
+ Min Singular Value used    0.164713
+ Condition Number (smax / smin):     13.2887
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     7.57356E-02
+ rms errors:     1.65828E-02
+ roughness alpha, beta:   0.118284    6.82913E-02
+ Percent Roughness Change (alpha,beta):    49.39   203.96
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.17940
+ Min Singular Value:    0.160882
+ Min Singular Value used    0.160882
+ Condition Number (smax / smin):     13.5466
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     5.63875E-02
+ rms errors:     1.43087E-02
+ roughness alpha, beta:   0.144249    8.32823E-02
+ Percent Roughness Change (alpha,beta):    60.23   167.24
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.600000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.57889
+ Min Singular Value:    0.182721
+ Min Singular Value used    0.182721
+ Condition Number (smax / smin):     14.1138
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.106640
+ rms errors:     1.96775E-02
+ roughness alpha, beta:    9.66599E-02    5.58066E-02
+ Percent Roughness Change (alpha,beta):    40.36   249.58
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.54575
+ Min Singular Value:    0.165123
+ Min Singular Value used    0.165123
+ Condition Number (smax / smin):     15.4173
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     8.64063E-02
+ rms errors:     1.77126E-02
+ roughness alpha, beta:    9.71996E-02    5.61182E-02
+ Percent Roughness Change (alpha,beta):    40.58   248.20
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.53756
+ Min Singular Value:    0.161650
+ Min Singular Value used    0.161650
+ Condition Number (smax / smin):     15.6978
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     6.94565E-02
+ rms errors:     1.58805E-02
+ roughness alpha, beta:   0.117708    6.79587E-02
+ Percent Roughness Change (alpha,beta):    49.14   204.95
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.700000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.94344
+ Min Singular Value:    0.185173
+ Min Singular Value used    0.185173
+ Condition Number (smax / smin):     15.8956
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.113125
+ rms errors:     2.02669E-02
+ roughness alpha, beta:    8.17735E-02    4.72119E-02
+ Percent Roughness Change (alpha,beta):    34.14   295.02
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.91566
+ Min Singular Value:    0.165987
+ Min Singular Value used    0.165987
+ Condition Number (smax / smin):     17.5656
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     9.52802E-02
+ rms errors:     1.85999E-02
+ roughness alpha, beta:    8.18223E-02    4.72402E-02
+ Percent Roughness Change (alpha,beta):    34.16   294.84
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     2.90896
+ Min Singular Value:    0.162676
+ Min Singular Value used    0.162676
+ Condition Number (smax / smin):     17.8819
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     8.07811E-02
+ rms errors:     1.71263E-02
+ roughness alpha, beta:    9.77325E-02    5.64259E-02
+ Percent Roughness Change (alpha,beta):    40.80   246.84
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.800000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.31713
+ Min Singular Value:    0.187270
+ Min Singular Value used    0.187270
+ Condition Number (smax / smin):     17.7131
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.118636
+ rms errors:     2.07547E-02
+ roughness alpha, beta:    7.05745E-02    4.07462E-02
+ Percent Roughness Change (alpha,beta):    29.47   341.83
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.29373
+ Min Singular Value:    0.167124
+ Min Singular Value used    0.167124
+ Condition Number (smax / smin):     19.7083
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     1.02623E-01
+ rms errors:     1.93033E-02
+ roughness alpha, beta:    7.02854E-02    4.05793E-02
+ Percent Roughness Change (alpha,beta):    29.35   343.24
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.28833
+ Min Singular Value:    0.163881
+ Min Singular Value used    0.163881
+ Condition Number (smax / smin):     20.0654
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     9.03527E-02
+ rms errors:     1.81125E-02
+ roughness alpha, beta:    8.25936E-02    4.76854E-02
+ Percent Roughness Change (alpha,beta):    34.48   292.09
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =    0.900000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.69697
+ Min Singular Value:    0.189116
+ Min Singular Value used    0.189116
+ Condition Number (smax / smin):     19.5487
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.123397
+ rms errors:     2.11671E-02
+ roughness alpha, beta:    6.18537E-02    3.57112E-02
+ Percent Roughness Change (alpha,beta):    25.82   390.03
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.67712
+ Min Singular Value:    0.168429
+ Min Singular Value used    0.168429
+ Condition Number (smax / smin):     21.8319
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.108758
+ rms errors:     1.98719E-02
+ roughness alpha, beta:    6.13835E-02    3.54398E-02
+ Percent Roughness Change (alpha,beta):    25.63   393.02
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     3.67270
+ Min Singular Value:    0.165174
+ Min Singular Value used    0.165174
+ Condition Number (smax / smin):     22.2352
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     9.83750E-02
+ rms errors:     1.88995E-02
+ roughness alpha, beta:    7.09801E-02    4.09804E-02
+ Percent Roughness Change (alpha,beta):    29.64   339.88
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =     1.00000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.08106
+ Min Singular Value:    0.190779
+ Min Singular Value used    0.190779
+ Condition Number (smax / smin):     21.3916
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.127579
+ rms errors:     2.15228E-02
+ roughness alpha, beta:    5.48631E-02    3.16753E-02
+ Percent Roughness Change (alpha,beta):    22.91   439.72
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.06407
+ Min Singular Value:    0.169848
+ Min Singular Value used    0.169848
+ Condition Number (smax / smin):     23.9276
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.113967
+ rms errors:     2.03422E-02
+ roughness alpha, beta:    5.43301E-02    3.13675E-02
+ Percent Roughness Change (alpha,beta):    22.68   444.04
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.06034
+ Min Singular Value:    0.166534
+ Min Singular Value used    0.166534
+ Condition Number (smax / smin):     24.3815
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.105121
+ rms errors:     1.95368E-02
+ roughness alpha, beta:    6.19203E-02    3.57497E-02
+ Percent Roughness Change (alpha,beta):    25.85   389.61
+ **********************************************************            
+  
+ **********************************************************
+ Smoothness trade-off parameter =     1.10000
+ **********************************************************
+  
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.46814
+ Min Singular Value:    0.192302
+ Min Singular Value used    0.192302
+ Condition Number (smax / smin):     23.2350
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.131308
+ rms errors:     2.18351E-02
+ roughness alpha, beta:    4.91262E-02    2.83631E-02
+ Percent Roughness Change (alpha,beta):    20.51   491.08
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.45345
+ Min Singular Value:    0.171325
+ Min Singular Value used    0.171325
+ Condition Number (smax / smin):     25.9941
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.118464
+ rms errors:     2.07397E-02
+ roughness alpha, beta:    4.86103E-02    2.80652E-02
+ Percent Roughness Change (alpha,beta):    20.30   496.29
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     4.45021
+ Min Singular Value:    0.167896
+ Min Singular Value used    0.167896
+ Condition Number (smax / smin):     26.5058
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:    0.110844
+ rms errors:     2.00616E-02
+ roughness alpha, beta:    5.47209E-02    3.15931E-02
+ Percent Roughness Change (alpha,beta):    22.85   440.87
+ **********************************************************            

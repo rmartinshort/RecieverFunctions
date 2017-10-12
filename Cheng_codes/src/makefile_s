@@ -1,0 +1,29 @@
+burgays_s =  ask.o asktxt.o blank.o \
+    minmax.o  burgays_s.o\
+    yesno.o zero.o dfftr.o npowr2.o \
+    fft.o locast.o rotate.o getdata.o filter.o jacobi.o canc.o cross.o \
+    convolution.o lowpass.o gaussfilter.o isvd.o csoln.o
+burgays_s: $(burgays_s)
+	f77 -g $(burgays_s)  -o burgays_s -L/ays/home/unix_so/sac/lib -lX11 -lm -lsac
+ask.o:  ask.f 
+asktxt.o:  asktxt.f 
+blank.o:  blank.f 
+minmax.o:  minmax.f 
+burgays_s.o:  burgays_s.f
+yesno.o:  yesno.f 
+zero.o:  zero.f 
+dfftr.o: dfftr.f
+npowr2.o: npowr2.f
+fft.o: fft.f
+locast.o: locast.f
+rotate.o: rotate.f
+getdata.o: getdata.f
+filter.o: filter.f
+jacobi.o: jacobi.f
+canc.o: canc.f
+cross.o: cross.f
+convolution.o: convolution.f
+lowpass.o: lowpass.f
+gaussfilter.o: gaussfilter.f
+isvd.o: isvd.f
+csoln.o: csoln.f

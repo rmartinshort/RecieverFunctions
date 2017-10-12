@@ -1,0 +1,184 @@
+
+
+ **********************************************************
+ snglinv - Receiver function inversion program.
+           VERSION 2.1 July 1997
+     Charles J. Ammon and George Randall.
+ Additional routines by George Zandt and Tom Owens.
+ **********************************************************
+ Inversion run on: Fri Aug  1 13:55:29 1997
+ **********************************************************
+ Maximum Number of points in each waveform = 512
+ **********************************************************
+ input velocity model:
+ Enter the max number of iterations per inversion
+ Enter the smoothing trade-off parameter
+ Enter inversion ID number (for output naming)
+ Enter Singular Value truncation fraction
+Apply a high-pass filter to waveforms?  Enter number of seismograms: 
+ Enter sac file name: 
+ Enter the horizontal slowness: 
+ Enter the delay: 
+ Enter the gaussian width factor:
+ **********************************************************
+ Read in:
+  i  name               p     tdelay    gauss
+ 01  target.eqr         0.060    5.000  2.50
+ **********************************************************
+  
+ **********************************************************
+ Inversion Input Parameters:
+ **********************************************************
+  
+ Initial Velocity Model: initial_model                   
+ Max Number of Iterations:   5
+ Smoothing trade-off parameter:     1.00000E-01
+ Singular-Value Truncation Fraction:     1.00000E-02
+ Inversion ID Number:  01
+  
+ **********************************************************
+ Inversion Diagnostics:
+ **********************************************************
+ Initial Model Vp over Vs Ratio
+ Layer   Vp/Vs       Poissons Ratio
+    1   1.7315633        0.250
+    2   1.7317784        0.250
+    3   1.7345133        0.251
+    4   1.7294117        0.249
+    5   1.7346938        0.251
+    6   1.7327586        0.250
+    7   1.7293447        0.249
+    8   1.7335244        0.251
+    9   1.7301137        0.249
+   10   1.7293447        0.249
+   11   1.7306590        0.249
+   12   1.7350428        0.251
+   13   1.7342465        0.251
+   14   1.7308707        0.249
+   15   1.7312661        0.250
+   16   1.7315272        0.250
+   17   1.7318680        0.250
+   18   1.7324562        0.250
+   19   1.7331886        0.250
+   20   1.7336245        0.251
+   21   1.7320261        0.250
+   22   1.7300886        0.249
+   23   1.7304348        0.249
+ **********************************************************
+ Iteration:   0
+
+
+ initial fractional square misfit:    0.156964
+ initial rms errors:     2.38731E-02
+ initial roughness alpha, beta:   0.239513   0.139284
+ **********************************************************
+ **********************************************************
+ Iteration:   1
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.53900
+ Min Singular Value:    0.157562
+ Min Singular Value used    0.157562
+ Condition Number (smax / smin):     9.76762
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     6.52974E-02
+ rms errors:     1.53977E-02
+ roughness alpha, beta:   0.320559   0.188074
+ Percent Roughness Change (alpha,beta):   133.84    74.06
+ **********************************************************            
+ **********************************************************
+ Iteration:   2
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.47857
+ Min Singular Value:    0.171918
+ Min Singular Value used    0.171918
+ Condition Number (smax / smin):     8.60041
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     3.11989E-02
+ rms errors:     1.06433E-02
+ roughness alpha, beta:   0.345711   0.202454
+ Percent Roughness Change (alpha,beta):   144.34    68.80
+ **********************************************************            
+ **********************************************************
+ Iteration:   3
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.46824
+ Min Singular Value:    0.173266
+ Min Singular Value used    0.173266
+ Condition Number (smax / smin):     8.47387
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     7.62719E-03
+ rms errors:     5.26249E-03
+ roughness alpha, beta:   0.385652   0.224618
+ Percent Roughness Change (alpha,beta):   161.02    62.01
+ **********************************************************            
+ **********************************************************
+ Iteration:   4
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.52105
+ Min Singular Value:    0.162617
+ Min Singular Value used    0.162617
+ Condition Number (smax / smin):     9.35359
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     2.14134E-03
+ rms errors:     2.78838E-03
+ roughness alpha, beta:   0.409128   0.237968
+ Percent Roughness Change (alpha,beta):   170.82    58.53
+ **********************************************************            
+ **********************************************************
+ Iteration:   5
+  
+ SVD truncation summary:
+ Truncation fraction:     1.00000E-02
+ Max Singular Value:     1.55892
+ Min Singular Value:    0.157747
+ Min Singular Value used    0.157747
+ Condition Number (smax / smin):     9.88246
+ # parameters, # SV used, # truncated
+   23  23  0
+  
+ fractional square misfit:     1.79427E-03
+ rms errors:     2.55243E-03
+ roughness alpha, beta:   0.412817   0.240106
+ Percent Roughness Change (alpha,beta):   172.36    58.01
+ **********************************************************            
+ Final Model 
+ Layer   Vp/Vs       Poissons Ratio
+    1   1.7315632        0.250
+    2   1.7317784        0.250
+    3   1.7345133        0.251
+    4   1.7294117        0.249
+    5   1.7346938        0.251
+    6   1.7327586        0.250
+    7   1.7293447        0.249
+    8   1.7335246        0.251
+    9   1.7301137        0.249
+   10   1.7293447        0.249
+   11   1.7306590        0.249
+   12   1.7350428        0.251
+   13   1.7342464        0.251
+   14   1.7308707        0.249
+   15   1.7312661        0.250
+   16   1.7315272        0.250
+   17   1.7318680        0.250
+   18   1.7324562        0.250
+   19   1.7331886        0.250
+   20   1.7336245        0.251
+   21   1.7320261        0.250
+   22   1.7300886        0.249
+   23   1.7304348        0.249

@@ -1,0 +1,17 @@
+
+LDLIBS=-lm
+CFLAGS=-O2 -m32
+
+all: sgftops sacswap saclst
+
+saclst: saclst.o
+	$(CC) $(CFLAGS) -o saclst saclst.o $(LDLIBS)
+
+sacswap: sacswap.o
+	$(CC) $(CFLAGS) -o sacswap sacswap.o $(LDLIBS)
+
+sgftops: sgftops.o
+	$(CC) $(CFLAGS) -o sgftops sgftops.o $(LDLIBS)
+
+clean:
+	rm -f saclst.o sacswap.o sgftops.o

@@ -1,0 +1,79 @@
+LIBS = -L/opt/sac.101/lib -lX11 -lm -lsac
+F77  = gfortran -ffixed-line-length-0 -m32 
+BIN  = ./
+
+burgays =  ask.o asktxt.o blank.o \
+    minmax.o  burgays.o\
+    yesno.o zero.o dfftr.o npowr2.o \
+    fft.o locast.o rotate.o getdata.o filter.o jacobi.o canc.o cross.o \
+    convolution.o lowpass.o gaussfilter.o isvd.o csoln.o
+burgays: $(burgays)
+	gfortran -g $(burgays) -o $(BIN)burgays $(LIBS)
+
+ask.o: \
+	ask.f
+	$(F77) -c ask.f
+asktxt.o: \
+	asktxt.f
+	$(F77) -c asktxt.f
+blank.o: \
+	blank.f
+	$(F77) -c blank.f
+minmax.o: \
+	minmax.f
+	$(F77) -c minmax.f
+burgays.o: \
+	burgays.f
+	$(F77) -c burgays.f
+yesno.o: \
+	yesno.f
+	$(F77) -c yesno.f
+zero.o: \
+	zero.f
+	$(F77) -c zero.f
+dfftr.o: \
+	dfftr.f
+	$(F77) -c dfftr.f
+npowr2.o: \
+	npowr2.f
+	$(F77) -c npowr2.f
+fft.o: \
+	fft.f
+	$(F77) -c fft.f
+locast.o: \
+	locast.f
+	$(F77) -c locast.f
+rotate.o: \
+	rotate.f
+	$(F77) -c rotate.f
+getdata.o: \
+	getdata.f
+	$(F77) -c getdata.f
+filter.o: \
+	filter.f
+	$(F77) -c filter.f
+jacobi.o: \
+	jacobi.f
+	$(F77) -c jacobi.f
+canc.o: \
+	canc.f
+	$(F77) -c canc.f
+cross.o: \
+	cross.f
+	$(F77) -c cross.f
+convolution.o: \
+	convolution.f
+	$(F77) -c convolution.f
+lowpass.o: \
+	lowpass.f
+	$(F77) -c lowpass.f
+gaussfilter.o: \
+	gaussfilter.f
+	$(F77) -c gaussfilter.f
+isvd.o: \
+	isvd.f
+	$(F77) -c isvd.f
+csoln.o: \
+	csoln.f
+	$(F77) -c csoln.f
+

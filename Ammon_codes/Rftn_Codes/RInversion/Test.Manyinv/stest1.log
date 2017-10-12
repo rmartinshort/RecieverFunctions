@@ -1,0 +1,584 @@
+
+
+
+
+input velocity model:
+maximum perturbation in km/sec
+Velocity to cut perturbing off
+Maximum perturbation for random component
+in percent of the maximum perturbation input
+above (10. -> 10%)
+
+
+
+Enter the max number of iterations per inversion
+Enter the smoothing trade-off parameter
+
+
+
+Initial models are generated in 2 loops,
+when you enter the number of inversions
+you will actually get 4 times that number
+adjust your choice to compensate for this.
+
+
+So how many inversions do you want me to do?
+
+
+
+number of seismograms: 
+sac file: 
+slowness: 
+delay: 
+
+
+
+initial rms errors: 
+    3.65171E-02
+initial roughness alpha, beta:
+   0.272831   0.157519
+rms errors: 
+    2.42885E-02
+roughness alpha, beta:
+   0.605158   0.349388
+rms errors: 
+    1.44311E-02
+roughness alpha, beta:
+   0.532645   0.307523
+rms errors: 
+    1.15744E-02
+roughness alpha, beta:
+   0.519979   0.300210
+rms errors: 
+    1.13885E-02
+roughness alpha, beta:
+   0.528516   0.305139
+
+
+
+initial rms errors: 
+    3.54186E-02
+initial roughness alpha, beta:
+   0.339230   0.195855
+rms errors: 
+    1.62431E-02
+roughness alpha, beta:
+   0.507436   0.292968
+rms errors: 
+    1.00121E-02
+roughness alpha, beta:
+   0.530724   0.306413
+rms errors: 
+    6.01762E-03
+roughness alpha, beta:
+   0.566643   0.327151
+rms errors: 
+    4.53335E-03
+roughness alpha, beta:
+   0.573628   0.331184
+
+
+
+initial rms errors: 
+    3.41575E-02
+initial roughness alpha, beta:
+   0.189873   0.109623
+rms errors: 
+    2.69228E-02
+roughness alpha, beta:
+   0.454766   0.262559
+rms errors: 
+    2.40096E-02
+roughness alpha, beta:
+   0.458414   0.264665
+rms errors: 
+    2.15602E-02
+roughness alpha, beta:
+   0.465704   0.268874
+rms errors: 
+    1.90975E-02
+roughness alpha, beta:
+   0.524206   0.302650
+
+
+
+initial rms errors: 
+    3.73503E-02
+initial roughness alpha, beta:
+   0.236112   0.136319
+rms errors: 
+    3.10886E-02
+roughness alpha, beta:
+   0.618348   0.357003
+rms errors: 
+    2.35147E-02
+roughness alpha, beta:
+   0.446480   0.257775
+rms errors: 
+    1.91905E-02
+roughness alpha, beta:
+   0.476466   0.275088
+rms errors: 
+    1.79751E-02
+roughness alpha, beta:
+   0.447907   0.258599
+
+
+
+initial rms errors: 
+    3.23596E-02
+initial roughness alpha, beta:
+   0.240974   0.139126
+rms errors: 
+    1.46762E-02
+roughness alpha, beta:
+   0.588729   0.339903
+rms errors: 
+    1.22962E-02
+roughness alpha, beta:
+   0.587100   0.338962
+rms errors: 
+    1.10596E-02
+roughness alpha, beta:
+   0.598870   0.345758
+rms errors: 
+    1.11857E-02
+roughness alpha, beta:
+   0.576360   0.332762
+
+
+
+initial rms errors: 
+    3.90087E-02
+initial roughness alpha, beta:
+   0.208002   0.120090
+rms errors: 
+    2.03757E-02
+roughness alpha, beta:
+   0.611988   0.353331
+rms errors: 
+    1.61746E-02
+roughness alpha, beta:
+   0.495369   0.286001
+rms errors: 
+    1.31747E-02
+roughness alpha, beta:
+   0.569538   0.328823
+rms errors: 
+    1.21912E-02
+roughness alpha, beta:
+   0.589226   0.340190
+
+
+
+initial rms errors: 
+    4.10391E-02
+initial roughness alpha, beta:
+   0.436057   0.251758
+rms errors: 
+    2.64486E-02
+roughness alpha, beta:
+   0.610885   0.352694
+rms errors: 
+    1.71615E-02
+roughness alpha, beta:
+   0.520031   0.300240
+rms errors: 
+    1.18123E-02
+roughness alpha, beta:
+   0.533369   0.307941
+rms errors: 
+    1.14450E-02
+roughness alpha, beta:
+   0.523261   0.302105
+
+
+
+initial rms errors: 
+    3.59396E-02
+initial roughness alpha, beta:
+   0.378647   0.218612
+rms errors: 
+    1.77488E-02
+roughness alpha, beta:
+   0.512035   0.295624
+rms errors: 
+    1.13063E-02
+roughness alpha, beta:
+   0.534922   0.308837
+rms errors: 
+    7.59759E-03
+roughness alpha, beta:
+   0.578883   0.334218
+rms errors: 
+    4.91649E-03
+roughness alpha, beta:
+   0.578042   0.333733
+
+
+
+initial rms errors: 
+    4.08937E-02
+initial roughness alpha, beta:
+   0.378397   0.218468
+rms errors: 
+    3.32513E-02
+roughness alpha, beta:
+   0.529844   0.305906
+rms errors: 
+    2.41488E-02
+roughness alpha, beta:
+   0.517820   0.298964
+rms errors: 
+    1.77655E-02
+roughness alpha, beta:
+   0.475982   0.274808
+rms errors: 
+    7.90553E-03
+roughness alpha, beta:
+   0.558359   0.322369
+
+
+
+initial rms errors: 
+    3.91305E-02
+initial roughness alpha, beta:
+   0.363187   0.209686
+rms errors: 
+    1.99947E-02
+roughness alpha, beta:
+   0.602511   0.347860
+rms errors: 
+    1.50956E-02
+roughness alpha, beta:
+   0.499732   0.288520
+rms errors: 
+    1.17778E-02
+roughness alpha, beta:
+   0.570859   0.329586
+rms errors: 
+    1.09135E-02
+roughness alpha, beta:
+   0.583637   0.336963
+
+
+
+initial rms errors: 
+    3.86683E-02
+initial roughness alpha, beta:
+   0.197550   0.114056
+rms errors: 
+    1.61193E-02
+roughness alpha, beta:
+   0.593432   0.342618
+rms errors: 
+    1.36527E-02
+roughness alpha, beta:
+   0.576112   0.332618
+rms errors: 
+    1.27582E-02
+roughness alpha, beta:
+   0.605892   0.349812
+rms errors: 
+    1.26373E-02
+roughness alpha, beta:
+   0.590639   0.341006
+
+
+
+initial rms errors: 
+    4.04667E-02
+initial roughness alpha, beta:
+   0.230433   0.133041
+rms errors: 
+    1.78619E-02
+roughness alpha, beta:
+   0.634836   0.366523
+rms errors: 
+    1.40365E-02
+roughness alpha, beta:
+   0.593464   0.342637
+rms errors: 
+    1.30521E-02
+roughness alpha, beta:
+   0.617571   0.356555
+rms errors: 
+    1.30423E-02
+roughness alpha, beta:
+   0.610149   0.352270
+
+
+
+initial rms errors: 
+    3.89380E-02
+initial roughness alpha, beta:
+   0.391646   0.226117
+rms errors: 
+    2.97498E-02
+roughness alpha, beta:
+   0.533086   0.307777
+rms errors: 
+    2.09432E-02
+roughness alpha, beta:
+   0.576710   0.332963
+rms errors: 
+    1.29827E-02
+roughness alpha, beta:
+   0.530319   0.306180
+rms errors: 
+    5.72437E-03
+roughness alpha, beta:
+   0.550455   0.317805
+
+
+
+initial rms errors: 
+    3.56495E-02
+initial roughness alpha, beta:
+   0.259508   0.149827
+rms errors: 
+    1.45573E-02
+roughness alpha, beta:
+   0.636031   0.367213
+rms errors: 
+    6.43544E-03
+roughness alpha, beta:
+   0.532705   0.307557
+rms errors: 
+    4.49672E-03
+roughness alpha, beta:
+   0.570983   0.329657
+rms errors: 
+    4.50066E-03
+roughness alpha, beta:
+   0.569889   0.329025
+
+
+
+initial rms errors: 
+    3.55979E-02
+initial roughness alpha, beta:
+   0.246770   0.142473
+rms errors: 
+    2.66749E-02
+roughness alpha, beta:
+   0.582067   0.336057
+rms errors: 
+    1.86240E-02
+roughness alpha, beta:
+   0.450310   0.259987
+rms errors: 
+    8.53010E-03
+roughness alpha, beta:
+   0.512692   0.296003
+rms errors: 
+    5.03004E-03
+roughness alpha, beta:
+   0.564654   0.326003
+
+
+
+initial rms errors: 
+    3.15746E-02
+initial roughness alpha, beta:
+   0.366937   0.211851
+rms errors: 
+    1.63476E-02
+roughness alpha, beta:
+   0.532375   0.307367
+rms errors: 
+    7.92982E-03
+roughness alpha, beta:
+   0.518780   0.299518
+rms errors: 
+    5.02101E-03
+roughness alpha, beta:
+   0.559794   0.323197
+rms errors: 
+    4.61665E-03
+roughness alpha, beta:
+   0.569268   0.328667
+
+
+
+initial rms errors: 
+    3.39165E-02
+initial roughness alpha, beta:
+   0.355358   0.205166
+rms errors: 
+    2.40949E-02
+roughness alpha, beta:
+   0.529591   0.305760
+rms errors: 
+    1.54830E-02
+roughness alpha, beta:
+   0.466959   0.269599
+rms errors: 
+    6.90071E-03
+roughness alpha, beta:
+   0.523291   0.302122
+rms errors: 
+    4.72385E-03
+roughness alpha, beta:
+   0.565436   0.326454
+
+
+
+initial rms errors: 
+    3.13105E-02
+initial roughness alpha, beta:
+   0.325920   0.188170
+rms errors: 
+    1.34560E-02
+roughness alpha, beta:
+   0.581057   0.335474
+rms errors: 
+    5.76633E-03
+roughness alpha, beta:
+   0.568728   0.328355
+rms errors: 
+    4.68181E-03
+roughness alpha, beta:
+   0.568147   0.328020
+rms errors: 
+    4.48573E-03
+roughness alpha, beta:
+   0.572807   0.330710
+
+
+
+initial rms errors: 
+    3.67997E-02
+initial roughness alpha, beta:
+   0.291290   0.168177
+rms errors: 
+    2.25911E-02
+roughness alpha, beta:
+   0.609955   0.352158
+rms errors: 
+    1.66679E-02
+roughness alpha, beta:
+   0.557880   0.322092
+rms errors: 
+    1.36349E-02
+roughness alpha, beta:
+   0.593791   0.342826
+rms errors: 
+    1.28759E-02
+roughness alpha, beta:
+   0.625043   0.360869
+
+
+
+initial rms errors: 
+    4.07378E-02
+initial roughness alpha, beta:
+   0.325473   0.187912
+rms errors: 
+    3.28735E-02
+roughness alpha, beta:
+   0.624627   0.360629
+rms errors: 
+    2.24082E-02
+roughness alpha, beta:
+   0.462395   0.266964
+rms errors: 
+    1.54096E-02
+roughness alpha, beta:
+   0.514235   0.296893
+rms errors: 
+    1.08080E-02
+roughness alpha, beta:
+   0.553611   0.319628
+
+
+
+initial rms errors: 
+    3.71211E-02
+initial roughness alpha, beta:
+   0.231579   0.133702
+rms errors: 
+    1.62596E-02
+roughness alpha, beta:
+   0.538302   0.310789
+rms errors: 
+    7.83249E-03
+roughness alpha, beta:
+   0.514213   0.296881
+rms errors: 
+    4.84915E-03
+roughness alpha, beta:
+   0.564682   0.326019
+rms errors: 
+    4.56489E-03
+roughness alpha, beta:
+   0.569470   0.328784
+
+
+
+initial rms errors: 
+    3.44624E-02
+initial roughness alpha, beta:
+   0.216962   0.125263
+rms errors: 
+    2.01698E-02
+roughness alpha, beta:
+   0.523198   0.302069
+rms errors: 
+    8.67568E-03
+roughness alpha, beta:
+   0.508192   0.293405
+rms errors: 
+    5.44205E-03
+roughness alpha, beta:
+   0.552798   0.319158
+rms errors: 
+    4.57868E-03
+roughness alpha, beta:
+   0.570262   0.329241
+
+
+
+initial rms errors: 
+    3.67122E-02
+initial roughness alpha, beta:
+   0.324100   0.187119
+rms errors: 
+    2.87209E-02
+roughness alpha, beta:
+   0.526063   0.303722
+rms errors: 
+    2.19224E-02
+roughness alpha, beta:
+   0.466048   0.269073
+rms errors: 
+    1.22603E-02
+roughness alpha, beta:
+   0.494344   0.285410
+rms errors: 
+    6.28247E-03
+roughness alpha, beta:
+   0.539011   0.311198
+
+
+
+initial rms errors: 
+    3.73742E-02
+initial roughness alpha, beta:
+   0.298971   0.172611
+rms errors: 
+    2.69179E-02
+roughness alpha, beta:
+   0.533769   0.308172
+rms errors: 
+    2.03859E-02
+roughness alpha, beta:
+   0.535859   0.309378
+rms errors: 
+    1.27965E-02
+roughness alpha, beta:
+   0.464912   0.268417
+rms errors: 
+    6.05133E-03
+roughness alpha, beta:
+   0.541331   0.312538

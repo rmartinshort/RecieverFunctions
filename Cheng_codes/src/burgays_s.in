@@ -1,0 +1,44 @@
+* bstime, estime (s)
+150.0     20.0
+* S wavelet duration: swt, advanced time: swt0 (s) 
+170.0     150.0
+* agauss, c
+3.0     0.001
+* ifband: 0 -- broad-band or 1 -- short-period                       
+0      
+
+
+
+CDSN_SH:
+* bstime, estime (s)
+150.0     20.0
+* S wavelet duration: swt, advanced time: swt0 (s) 
+170.0     150.0
+* agauss, c
+3.0     0.001
+* ifband: 0 -- broad-band or 1 -- short-period                       
+1          
+
+
+
+hbbsw:
+* bstime, estime (s)
+150.0     20.0
+* S wavelet duration: swt, advanced time: swt0 (s)  
+50.0      30.0
+* agauss, c
+3.0     0.001                      
+* ifband: 0 -- broad-band or 1 -- short-period                       
+0
+
+
+hbb:
+* bstime, estime (s)
+150.0     20.0
+* S wavelet duration: swt, advanced time: swt0 (s) 
+170.0      150.0
+* agauss, c
+3.0     0.001                      
+* ifband: 0 -- broad-band or 1 -- short-period                       
+0
+
